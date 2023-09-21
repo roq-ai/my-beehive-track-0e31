@@ -1,0 +1,2572 @@
+[
+  {
+    "hive": [
+      {
+        "id": "8020be34-73fd-4455-b59f-2107713e4c7b",
+        "location": "New York",
+        "creation_date": "2023-09-21T13:57:34.263Z",
+        "destruction_date": "2023-09-21T08:42:11.957Z",
+        "hive_status": "Active",
+        "created_at": "2023-09-20T20:37:02.452Z",
+        "updated_at": "2023-09-20T16:43:30.978Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9964d816-102c-4554-ba30-629905badf57",
+        "location": "London",
+        "creation_date": "2023-09-21T04:38:39.938Z",
+        "destruction_date": "2023-09-21T06:37:46.000Z",
+        "hive_status": "Inactive",
+        "created_at": "2023-09-21T01:34:41.252Z",
+        "updated_at": "2023-09-20T15:51:33.787Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db5c66f7-4007-4bc6-aa67-e88b6cf771c9",
+        "location": "Tokyo",
+        "creation_date": "2023-09-21T12:46:06.455Z",
+        "destruction_date": "2023-09-21T03:28:48.123Z",
+        "hive_status": "Under Maintenance",
+        "created_at": "2023-09-21T14:11:16.730Z",
+        "updated_at": "2023-09-21T03:27:09.237Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e91052b-b7f6-4b69-abf5-355c88bab8f0",
+        "location": "Paris",
+        "creation_date": "2023-09-21T01:48:20.855Z",
+        "destruction_date": "2023-09-20T18:03:47.506Z",
+        "hive_status": "Healthy",
+        "created_at": "2023-09-20T17:21:41.995Z",
+        "updated_at": "2023-09-21T10:32:13.804Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5117afc-2853-4692-bcc5-72e7dd469784",
+        "location": "Sydney",
+        "creation_date": "2023-09-21T10:59:58.430Z",
+        "destruction_date": "2023-09-20T16:42:57.988Z",
+        "hive_status": "Damaged",
+        "created_at": "2023-09-21T10:01:24.505Z",
+        "updated_at": "2023-09-21T08:20:16.316Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "health_check": [
+      {
+        "id": "434bf300-df38-46fb-9cfa-84abf34173af",
+        "check_date": "2023-09-20T20:30:43.731Z",
+        "check_result": "Pass",
+        "notes": "No issues found",
+        "created_at": "2023-09-21T01:00:59.967Z",
+        "updated_at": "2023-09-21T04:55:07.572Z",
+        "hive_id": "8020be34-73fd-4455-b59f-2107713e4c7b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ca6294a-ee49-4998-8283-8c6257521877",
+        "check_date": "2023-09-21T00:12:38.879Z",
+        "check_result": "Fail",
+        "notes": "Needs further investigation",
+        "created_at": "2023-09-20T18:10:34.560Z",
+        "updated_at": "2023-09-20T17:13:35.392Z",
+        "hive_id": "8020be34-73fd-4455-b59f-2107713e4c7b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a3e7f2e-157b-4c63-9235-c7be2f6b4b64",
+        "check_date": "2023-09-20T15:43:00.858Z",
+        "check_result": "Pending",
+        "notes": "Requires maintenance",
+        "created_at": "2023-09-20T18:15:55.793Z",
+        "updated_at": "2023-09-20T17:58:45.964Z",
+        "hive_id": "9964d816-102c-4554-ba30-629905badf57",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a70ec1f-301a-4fd9-a2f1-8d4624636fd4",
+        "check_date": "2023-09-20T15:30:28.289Z",
+        "check_result": "In Progress",
+        "notes": "Completed successfully",
+        "created_at": "2023-09-20T18:07:55.210Z",
+        "updated_at": "2023-09-21T08:05:49.356Z",
+        "hive_id": "db5c66f7-4007-4bc6-aa67-e88b6cf771c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1ea1b4b-1895-49f4-bee6-713e2bc1c3d4",
+        "check_date": "2023-09-21T08:39:35.208Z",
+        "check_result": "Completed",
+        "notes": "Pending review",
+        "created_at": "2023-09-21T12:53:22.773Z",
+        "updated_at": "2023-09-21T09:10:07.164Z",
+        "hive_id": "a5117afc-2853-4692-bcc5-72e7dd469784",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "harvest": [
+      {
+        "id": "d11aa495-1eae-4114-b3ee-111b56392122",
+        "harvest_date": "2023-09-21T10:40:11.255Z",
+        "quantity": 61527,
+        "harvest_type": "Honey",
+        "created_at": "2023-09-21T13:06:39.184Z",
+        "updated_at": "2023-09-20T23:58:35.106Z",
+        "hive_id": "9964d816-102c-4554-ba30-629905badf57",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe2f7953-bbcd-4a89-a4ae-e84496acd567",
+        "harvest_date": "2023-09-20T21:05:15.386Z",
+        "quantity": 19617,
+        "harvest_type": "Beeswax",
+        "created_at": "2023-09-21T13:42:41.005Z",
+        "updated_at": "2023-09-20T21:31:39.045Z",
+        "hive_id": "db5c66f7-4007-4bc6-aa67-e88b6cf771c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35c05395-47ac-4e56-b659-e147fe9415bb",
+        "harvest_date": "2023-09-21T03:26:25.573Z",
+        "quantity": 54081,
+        "harvest_type": "Royal Jelly",
+        "created_at": "2023-09-21T08:43:01.855Z",
+        "updated_at": "2023-09-20T18:44:40.534Z",
+        "hive_id": "a5117afc-2853-4692-bcc5-72e7dd469784",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dfd8c2e3-40ca-4c8a-8a31-89a51e54e9c4",
+        "harvest_date": "2023-09-21T05:10:50.678Z",
+        "quantity": 8527,
+        "harvest_type": "Pollen",
+        "created_at": "2023-09-20T22:23:23.560Z",
+        "updated_at": "2023-09-21T05:46:10.489Z",
+        "hive_id": "a5117afc-2853-4692-bcc5-72e7dd469784",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c043b31-794d-4b6c-a333-31eb8f7fbb7e",
+        "harvest_date": "2023-09-21T11:32:28.021Z",
+        "quantity": 95138,
+        "harvest_type": "Propolis",
+        "created_at": "2023-09-20T15:28:43.174Z",
+        "updated_at": "2023-09-20T20:12:37.441Z",
+        "hive_id": "a5117afc-2853-4692-bcc5-72e7dd469784",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bee": [
+      {
+        "id": "c33446a5-29f2-4745-ae4d-291fbbc55d1a",
+        "species": "Apis mellifera",
+        "birth_date": "2023-09-20T15:34:44.963Z",
+        "death_date": "2023-09-20T22:32:35.677Z",
+        "queen_bee": true,
+        "created_at": "2023-09-21T02:39:40.698Z",
+        "updated_at": "2023-09-21T03:53:47.717Z",
+        "hive_id": "db5c66f7-4007-4bc6-aa67-e88b6cf771c9"
+      },
+      {
+        "id": "3e6b6d96-71fa-4e03-9e8a-22c7f0d238fe",
+        "species": "Bombus terrestris",
+        "birth_date": "2023-09-20T19:16:23.661Z",
+        "death_date": "2023-09-20T21:28:41.548Z",
+        "queen_bee": false,
+        "created_at": "2023-09-21T11:44:21.169Z",
+        "updated_at": "2023-09-20T22:15:23.680Z",
+        "hive_id": "8020be34-73fd-4455-b59f-2107713e4c7b"
+      },
+      {
+        "id": "1e531302-f4be-4104-9a63-76fee2530bd7",
+        "species": "Xylocopa violacea",
+        "birth_date": "2023-09-20T16:55:02.279Z",
+        "death_date": "2023-09-21T09:59:09.734Z",
+        "queen_bee": true,
+        "created_at": "2023-09-20T15:50:56.087Z",
+        "updated_at": "2023-09-21T00:39:34.715Z",
+        "hive_id": "8020be34-73fd-4455-b59f-2107713e4c7b"
+      },
+      {
+        "id": "615c4145-05f8-4bd3-8ed8-3fb7c05681d3",
+        "species": "Megachile rotundata",
+        "birth_date": "2023-09-21T08:42:25.685Z",
+        "death_date": "2023-09-20T23:24:14.957Z",
+        "queen_bee": false,
+        "created_at": "2023-09-21T13:21:38.850Z",
+        "updated_at": "2023-09-20T23:31:12.823Z",
+        "hive_id": "4e91052b-b7f6-4b69-abf5-355c88bab8f0"
+      },
+      {
+        "id": "0c814c0d-db81-4b69-b58a-55f5bc6875fd",
+        "species": "Osmia lignaria",
+        "birth_date": "2023-09-21T12:07:09.146Z",
+        "death_date": "2023-09-20T22:56:11.841Z",
+        "queen_bee": true,
+        "created_at": "2023-09-21T06:07:03.743Z",
+        "updated_at": "2023-09-20T15:14:22.903Z",
+        "hive_id": "db5c66f7-4007-4bc6-aa67-e88b6cf771c9"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0bf8a69a-7144-49cc-adf6-051e6fe00d9e",
+        "email": "Teagan88@roq.tech",
+        "firstName": "Tobin",
+        "lastName": "Nitzsche",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/728.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4963b43f-882f-454c-b0fb-2016d0320c9f",
+        "email": "Enoch65@roq.tech",
+        "firstName": "Sam",
+        "lastName": "Stracke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46864519",
+        "tenantId": null
+      },
+      {
+        "reference": "947b2760-62ce-4e02-b129-943305b43df9",
+        "email": "Estevan_Nikolaus-Bruen@roq.tech",
+        "firstName": "Berta",
+        "lastName": "Reilly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83987958",
+        "tenantId": null
+      },
+      {
+        "reference": "cef9ed6e-6cc3-4a7a-b1c4-822f43d89790",
+        "email": "Lillian83@roq.tech",
+        "firstName": "Kaley",
+        "lastName": "Padberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79610164",
+        "tenantId": null
+      },
+      {
+        "reference": "9e0fe3e0-0fa5-4e86-add0-5a1c8b7daac3",
+        "email": "Moses.Tremblay-Mayer51@roq.tech",
+        "firstName": "Milton",
+        "lastName": "Greenholt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2278146",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "hive": [
+      {
+        "id": "1b984ca5-972d-4e99-a3e2-67696505ed04",
+        "location": "Location 1",
+        "creation_date": "2023-09-21T14:48:06.238Z",
+        "destruction_date": "2023-09-20T16:45:49.644Z",
+        "hive_status": "Active",
+        "created_at": "2023-09-20T22:30:06.431Z",
+        "updated_at": "2023-09-20T15:30:03.952Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "521fb133-cd85-41da-9af3-afa83b447037",
+        "location": "Location 2",
+        "creation_date": "2023-09-21T12:22:37.942Z",
+        "destruction_date": "2023-09-21T14:48:17.058Z",
+        "hive_status": "Inactive",
+        "created_at": "2023-09-21T13:10:54.693Z",
+        "updated_at": "2023-09-21T06:31:37.088Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b714a404-f69d-4ba5-8354-f41ba81a2fde",
+        "location": "Location 3",
+        "creation_date": "2023-09-20T16:05:59.133Z",
+        "destruction_date": "2023-09-21T02:12:06.109Z",
+        "hive_status": "Under Maintenance",
+        "created_at": "2023-09-21T01:42:10.026Z",
+        "updated_at": "2023-09-21T05:45:50.970Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "273a6aed-7a51-4c50-8e1f-f691ab696f47",
+        "location": "Location 4",
+        "creation_date": "2023-09-21T03:45:50.801Z",
+        "destruction_date": "2023-09-20T22:45:32.901Z",
+        "hive_status": "In Use",
+        "created_at": "2023-09-21T04:20:05.196Z",
+        "updated_at": "2023-09-21T04:42:52.829Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "660e011f-98f7-43df-8bc0-5cfbdca9007d",
+        "location": "Location 5",
+        "creation_date": "2023-09-21T10:55:40.520Z",
+        "destruction_date": "2023-09-21T12:35:01.073Z",
+        "hive_status": "Empty",
+        "created_at": "2023-09-21T13:12:05.602Z",
+        "updated_at": "2023-09-21T09:12:38.088Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "health_check": [
+      {
+        "id": "3bbe6ff5-63b5-4905-b85d-16d4b12708fa",
+        "check_date": "2023-09-21T02:35:40.468Z",
+        "check_result": "Pass",
+        "notes": "No issues found",
+        "created_at": "2023-09-21T01:40:04.830Z",
+        "updated_at": "2023-09-20T17:18:33.560Z",
+        "hive_id": "1b984ca5-972d-4e99-a3e2-67696505ed04",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b21dec2d-f156-4b78-989b-232e9dbbabd8",
+        "check_date": "2023-09-21T11:04:13.482Z",
+        "check_result": "Fail",
+        "notes": "Requires further inspection",
+        "created_at": "2023-09-21T00:35:15.901Z",
+        "updated_at": "2023-09-21T14:06:13.574Z",
+        "hive_id": "521fb133-cd85-41da-9af3-afa83b447037",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eebf5265-dba0-49f0-9cb2-c302ebe6f984",
+        "check_date": "2023-09-21T02:58:54.428Z",
+        "check_result": "Pending",
+        "notes": "Minor issues identified",
+        "created_at": "2023-09-20T20:52:48.460Z",
+        "updated_at": "2023-09-20T18:39:50.137Z",
+        "hive_id": "521fb133-cd85-41da-9af3-afa83b447037",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "efdb2da0-5331-4c0c-b66c-68f017c085b8",
+        "check_date": "2023-09-21T04:38:31.814Z",
+        "check_result": "In Progress",
+        "notes": "Major issues detected",
+        "created_at": "2023-09-21T04:57:29.237Z",
+        "updated_at": "2023-09-20T15:23:34.904Z",
+        "hive_id": "660e011f-98f7-43df-8bc0-5cfbdca9007d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f30df08-e535-4813-a6f3-2999e5d6f016",
+        "check_date": "2023-09-20T20:35:19.267Z",
+        "check_result": "Completed",
+        "notes": "Recommend immediate action",
+        "created_at": "2023-09-20T20:20:34.574Z",
+        "updated_at": "2023-09-21T14:46:15.330Z",
+        "hive_id": "273a6aed-7a51-4c50-8e1f-f691ab696f47",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "harvest": [
+      {
+        "id": "a2c8e428-7627-4d85-97e9-941c1c7cd856",
+        "harvest_date": "2023-09-21T04:10:55.795Z",
+        "quantity": 33863,
+        "harvest_type": "Honey",
+        "created_at": "2023-09-20T23:09:31.629Z",
+        "updated_at": "2023-09-21T05:42:03.165Z",
+        "hive_id": "660e011f-98f7-43df-8bc0-5cfbdca9007d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08686d70-8a6c-48df-9ef7-a88e009ce288",
+        "harvest_date": "2023-09-21T07:40:00.353Z",
+        "quantity": 1817,
+        "harvest_type": "Wax",
+        "created_at": "2023-09-21T13:44:55.961Z",
+        "updated_at": "2023-09-21T10:15:41.420Z",
+        "hive_id": "1b984ca5-972d-4e99-a3e2-67696505ed04",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8289998c-3edc-4e7f-ba38-69c046ced2dd",
+        "harvest_date": "2023-09-21T01:04:03.075Z",
+        "quantity": 42140,
+        "harvest_type": "Pollen",
+        "created_at": "2023-09-21T05:12:11.178Z",
+        "updated_at": "2023-09-20T19:16:22.391Z",
+        "hive_id": "273a6aed-7a51-4c50-8e1f-f691ab696f47",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "19d20115-bddb-4dc5-81d7-27d027ec8bc1",
+        "harvest_date": "2023-09-21T10:20:29.359Z",
+        "quantity": 45442,
+        "harvest_type": "Royal Jelly",
+        "created_at": "2023-09-21T05:29:09.615Z",
+        "updated_at": "2023-09-21T09:17:47.253Z",
+        "hive_id": "521fb133-cd85-41da-9af3-afa83b447037",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "999f2eb1-d064-402f-8fdd-c0becf2b876d",
+        "harvest_date": "2023-09-21T12:17:49.515Z",
+        "quantity": 29538,
+        "harvest_type": "Propolis",
+        "created_at": "2023-09-20T18:10:52.572Z",
+        "updated_at": "2023-09-20T22:12:18.833Z",
+        "hive_id": "b714a404-f69d-4ba5-8354-f41ba81a2fde",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bee": [
+      {
+        "id": "596671dd-4ee6-42ad-999c-f02982c72c73",
+        "species": "Apis mellifera",
+        "birth_date": "2023-09-20T22:38:27.953Z",
+        "death_date": "2023-09-21T10:52:37.635Z",
+        "queen_bee": false,
+        "created_at": "2023-09-21T09:20:05.209Z",
+        "updated_at": "2023-09-20T19:27:42.554Z",
+        "hive_id": "660e011f-98f7-43df-8bc0-5cfbdca9007d"
+      },
+      {
+        "id": "9197d56c-1e77-48f1-afde-64d93a19f61e",
+        "species": "Bombus terrestris",
+        "birth_date": "2023-09-21T09:50:56.148Z",
+        "death_date": "2023-09-21T13:20:14.278Z",
+        "queen_bee": true,
+        "created_at": "2023-09-21T12:09:19.657Z",
+        "updated_at": "2023-09-21T01:19:44.222Z",
+        "hive_id": "1b984ca5-972d-4e99-a3e2-67696505ed04"
+      },
+      {
+        "id": "0241ade1-c5de-4425-bd0c-d78b97e1458d",
+        "species": "Xylocopa virginica",
+        "birth_date": "2023-09-20T19:17:52.520Z",
+        "death_date": "2023-09-20T15:56:59.823Z",
+        "queen_bee": true,
+        "created_at": "2023-09-21T10:47:16.628Z",
+        "updated_at": "2023-09-21T03:07:32.685Z",
+        "hive_id": "660e011f-98f7-43df-8bc0-5cfbdca9007d"
+      },
+      {
+        "id": "35975d84-6a5f-47ec-ad4e-c399cb995900",
+        "species": "Megachile rotundata",
+        "birth_date": "2023-09-21T04:13:33.554Z",
+        "death_date": "2023-09-20T21:48:42.345Z",
+        "queen_bee": true,
+        "created_at": "2023-09-21T06:04:31.524Z",
+        "updated_at": "2023-09-20T17:08:46.927Z",
+        "hive_id": "1b984ca5-972d-4e99-a3e2-67696505ed04"
+      },
+      {
+        "id": "9bdf36ea-9ae1-4268-afe6-a93a7cdda971",
+        "species": "Osmia lignaria",
+        "birth_date": "2023-09-20T16:56:19.655Z",
+        "death_date": "2023-09-21T05:36:19.255Z",
+        "queen_bee": true,
+        "created_at": "2023-09-21T09:50:24.398Z",
+        "updated_at": "2023-09-20T16:59:08.195Z",
+        "hive_id": "273a6aed-7a51-4c50-8e1f-f691ab696f47"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b78a1545-d7ab-4ba2-b381-3b436bd4d191",
+        "email": "Francesca.Rau@roq.tech",
+        "firstName": "Trever",
+        "lastName": "Cartwright",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8687313",
+        "tenantId": null
+      },
+      {
+        "reference": "a39a4300-9050-44fd-beac-eae6376c9cb5",
+        "email": "Ivory4@roq.tech",
+        "firstName": "Ivy",
+        "lastName": "Graham",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95080017",
+        "tenantId": null
+      },
+      {
+        "reference": "6d07134f-80f9-4b65-8c49-682cbfb4b080",
+        "email": "Raegan_Brown@roq.tech",
+        "firstName": "Alize",
+        "lastName": "Bode",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/684.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8184e068-ea13-4845-9a34-d6e66a39d3d5",
+        "email": "Kayley_Runte-Runolfsdottir@roq.tech",
+        "firstName": "Mathilde",
+        "lastName": "Kemmer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55615662",
+        "tenantId": null
+      },
+      {
+        "reference": "d047e29c-cc19-4345-8504-0b63711f38a8",
+        "email": "Sidney_Howell35@roq.tech",
+        "firstName": "Bernita",
+        "lastName": "Fadel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7712040",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "hive": [
+      {
+        "id": "3bb06c79-a824-45a9-9300-56f5de5cc533",
+        "location": "New York",
+        "creation_date": "2023-09-20T17:23:39.783Z",
+        "destruction_date": "2023-09-21T00:13:15.720Z",
+        "hive_status": "Active",
+        "created_at": "2023-09-20T21:11:05.419Z",
+        "updated_at": "2023-09-21T13:44:35.583Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b672c61-a134-48be-b115-69dce076eeca",
+        "location": "Los Angeles",
+        "creation_date": "2023-09-21T12:39:00.852Z",
+        "destruction_date": "2023-09-21T06:39:52.647Z",
+        "hive_status": "Inactive",
+        "created_at": "2023-09-20T23:37:33.003Z",
+        "updated_at": "2023-09-20T16:49:20.467Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71be561c-320f-449b-8130-3c48d1c64333",
+        "location": "Chicago",
+        "creation_date": "2023-09-21T12:49:30.393Z",
+        "destruction_date": "2023-09-21T11:45:21.485Z",
+        "hive_status": "Under maintenance",
+        "created_at": "2023-09-21T05:11:31.556Z",
+        "updated_at": "2023-09-21T02:05:11.358Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3fd724e1-637e-4c2f-907e-306acbeaefef",
+        "location": "Houston",
+        "creation_date": "2023-09-20T15:13:24.400Z",
+        "destruction_date": "2023-09-21T10:11:13.766Z",
+        "hive_status": "Damaged",
+        "created_at": "2023-09-21T04:34:08.544Z",
+        "updated_at": "2023-09-20T15:51:26.946Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8dabe6c6-820a-4744-ae50-9a5c0ebc968f",
+        "location": "Miami",
+        "creation_date": "2023-09-21T01:52:12.668Z",
+        "destruction_date": "2023-09-21T13:34:17.277Z",
+        "hive_status": "Operational",
+        "created_at": "2023-09-20T21:37:57.216Z",
+        "updated_at": "2023-09-20T18:26:21.411Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "health_check": [
+      {
+        "id": "e9e9d09d-9200-4327-bce3-356a0ddfc016",
+        "check_date": "2023-09-21T04:19:04.743Z",
+        "check_result": "Pass",
+        "notes": "No issues found",
+        "created_at": "2023-09-20T15:23:32.160Z",
+        "updated_at": "2023-09-21T08:58:27.166Z",
+        "hive_id": "71be561c-320f-449b-8130-3c48d1c64333",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b539104-edb6-431b-b396-37b7ad6feacc",
+        "check_date": "2023-09-20T18:36:05.784Z",
+        "check_result": "Fail",
+        "notes": "Requires further inspection",
+        "created_at": "2023-09-21T01:34:05.505Z",
+        "updated_at": "2023-09-20T21:24:39.876Z",
+        "hive_id": "3bb06c79-a824-45a9-9300-56f5de5cc533",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bbd3ad04-9062-41f8-87af-eb5e47a44347",
+        "check_date": "2023-09-20T15:02:51.311Z",
+        "check_result": "Pending",
+        "notes": "Recommend repairs",
+        "created_at": "2023-09-20T21:17:12.785Z",
+        "updated_at": "2023-09-21T13:24:02.789Z",
+        "hive_id": "3bb06c79-a824-45a9-9300-56f5de5cc533",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0850fb5a-2a11-4d15-b5fb-72df3f344306",
+        "check_date": "2023-09-20T18:36:40.857Z",
+        "check_result": "Incomplete",
+        "notes": "High risk",
+        "created_at": "2023-09-21T14:55:01.579Z",
+        "updated_at": "2023-09-20T22:51:42.516Z",
+        "hive_id": "3fd724e1-637e-4c2f-907e-306acbeaefef",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4fd98ed9-0f15-4796-b415-c7d111835b1d",
+        "check_date": "2023-09-21T08:45:13.695Z",
+        "check_result": "Success",
+        "notes": "All clear",
+        "created_at": "2023-09-20T23:30:50.427Z",
+        "updated_at": "2023-09-20T22:36:28.294Z",
+        "hive_id": "71be561c-320f-449b-8130-3c48d1c64333",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "harvest": [
+      {
+        "id": "d1957be3-b590-4e90-9a9e-a6a8741cac85",
+        "harvest_date": "2023-09-21T08:58:16.464Z",
+        "quantity": 79076,
+        "harvest_type": "Honey",
+        "created_at": "2023-09-20T20:32:24.665Z",
+        "updated_at": "2023-09-21T07:55:55.359Z",
+        "hive_id": "3bb06c79-a824-45a9-9300-56f5de5cc533",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b17ea48-918a-4467-b1e8-4f643e357ba9",
+        "harvest_date": "2023-09-20T18:52:42.522Z",
+        "quantity": 71580,
+        "harvest_type": "Pollen",
+        "created_at": "2023-09-21T13:08:13.769Z",
+        "updated_at": "2023-09-21T10:18:42.280Z",
+        "hive_id": "6b672c61-a134-48be-b115-69dce076eeca",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff9411a2-0eee-4b65-9c1f-a95b39aca958",
+        "harvest_date": "2023-09-21T01:34:44.918Z",
+        "quantity": 58812,
+        "harvest_type": "Royal Jelly",
+        "created_at": "2023-09-21T13:15:12.086Z",
+        "updated_at": "2023-09-21T04:18:29.907Z",
+        "hive_id": "6b672c61-a134-48be-b115-69dce076eeca",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e27283dc-403f-47b1-8e15-df0df27fc848",
+        "harvest_date": "2023-09-20T22:01:56.803Z",
+        "quantity": 34518,
+        "harvest_type": "Beeswax",
+        "created_at": "2023-09-20T20:59:39.819Z",
+        "updated_at": "2023-09-21T00:03:51.053Z",
+        "hive_id": "6b672c61-a134-48be-b115-69dce076eeca",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a37b196-a6a1-430e-baef-c97f23416588",
+        "harvest_date": "2023-09-21T03:12:43.296Z",
+        "quantity": 47393,
+        "harvest_type": "Propolis",
+        "created_at": "2023-09-20T19:36:54.499Z",
+        "updated_at": "2023-09-21T11:12:47.896Z",
+        "hive_id": "3bb06c79-a824-45a9-9300-56f5de5cc533",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bee": [
+      {
+        "id": "c069170f-ff8d-481b-a519-96c804dc59f6",
+        "species": "Apis mellifera",
+        "birth_date": "2023-09-20T23:24:11.647Z",
+        "death_date": "2023-09-20T23:07:50.020Z",
+        "queen_bee": false,
+        "created_at": "2023-09-21T10:02:11.537Z",
+        "updated_at": "2023-09-21T14:29:38.796Z",
+        "hive_id": "3bb06c79-a824-45a9-9300-56f5de5cc533"
+      },
+      {
+        "id": "4675607b-e5da-4548-9302-2636ef235193",
+        "species": "Bombus terrestris",
+        "birth_date": "2023-09-20T19:51:18.122Z",
+        "death_date": "2023-09-21T11:34:20.154Z",
+        "queen_bee": true,
+        "created_at": "2023-09-21T13:27:01.626Z",
+        "updated_at": "2023-09-21T00:21:19.939Z",
+        "hive_id": "6b672c61-a134-48be-b115-69dce076eeca"
+      },
+      {
+        "id": "da33c0a5-4174-4a00-b08f-8fc306a8457d",
+        "species": "Megachile rotundata",
+        "birth_date": "2023-09-21T10:36:01.260Z",
+        "death_date": "2023-09-21T09:58:33.925Z",
+        "queen_bee": true,
+        "created_at": "2023-09-21T07:29:56.794Z",
+        "updated_at": "2023-09-21T07:19:41.068Z",
+        "hive_id": "6b672c61-a134-48be-b115-69dce076eeca"
+      },
+      {
+        "id": "97bb5231-d4a4-48fb-a528-b8689ab7bab7",
+        "species": "Osmia lignaria",
+        "birth_date": "2023-09-21T14:07:00.523Z",
+        "death_date": "2023-09-20T19:36:30.976Z",
+        "queen_bee": true,
+        "created_at": "2023-09-21T13:00:31.221Z",
+        "updated_at": "2023-09-21T02:33:51.643Z",
+        "hive_id": "71be561c-320f-449b-8130-3c48d1c64333"
+      },
+      {
+        "id": "15e0f1b3-6039-44cc-986b-fba49a89f5ef",
+        "species": "Xylocopa virginica",
+        "birth_date": "2023-09-21T00:17:10.683Z",
+        "death_date": "2023-09-21T05:39:13.050Z",
+        "queen_bee": false,
+        "created_at": "2023-09-20T16:47:02.804Z",
+        "updated_at": "2023-09-21T00:57:29.518Z",
+        "hive_id": "6b672c61-a134-48be-b115-69dce076eeca"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e174b2f5-7994-4ecc-b578-ba654c01cab5",
+        "email": "Sherwood.Collier32@roq.tech",
+        "firstName": "Columbus",
+        "lastName": "Rogahn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20171227",
+        "tenantId": null
+      },
+      {
+        "reference": "c0b1c9e8-0cbd-4c21-a293-6ec0ba42db5f",
+        "email": "Hubert28@roq.tech",
+        "firstName": "Aniya",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68773789",
+        "tenantId": null
+      },
+      {
+        "reference": "b2f379b5-1678-482b-99de-dfe0c73f4fb1",
+        "email": "Nola51@roq.tech",
+        "firstName": "Janice",
+        "lastName": "Stamm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/901.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cee34d61-c0f1-4f46-98d2-f68d5dd7b888",
+        "email": "Camren.Williamson39@roq.tech",
+        "firstName": "Aurelia",
+        "lastName": "Trantow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/578.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b869b4da-feaf-4b8b-a730-5ca201b2c235",
+        "email": "Alek.Trantow@roq.tech",
+        "firstName": "Jonas",
+        "lastName": "Fay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1214.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "hive": [
+      {
+        "id": "43bd640c-b73e-470a-9edc-be54a4df28bf",
+        "location": "New York",
+        "creation_date": "2023-09-20T21:13:48.567Z",
+        "destruction_date": "2023-09-21T07:26:25.015Z",
+        "hive_status": "Active",
+        "created_at": "2023-09-21T06:34:37.275Z",
+        "updated_at": "2023-09-21T04:52:32.918Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a2813b6-4bc3-4b14-bd10-fb2a31a0072b",
+        "location": "Los Angeles",
+        "creation_date": "2023-09-21T01:42:05.320Z",
+        "destruction_date": "2023-09-21T09:36:11.242Z",
+        "hive_status": "Inactive",
+        "created_at": "2023-09-21T02:36:18.579Z",
+        "updated_at": "2023-09-20T16:48:33.722Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9cd0fcb-2ccd-4b46-982c-588ab478a35c",
+        "location": "Chicago",
+        "creation_date": "2023-09-21T06:18:31.718Z",
+        "destruction_date": "2023-09-20T21:13:23.783Z",
+        "hive_status": "Under maintenance",
+        "created_at": "2023-09-21T10:53:01.784Z",
+        "updated_at": "2023-09-20T20:39:48.161Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed40fd9f-f01b-440f-b765-4fc8f54ca4a3",
+        "location": "Houston",
+        "creation_date": "2023-09-21T03:02:02.585Z",
+        "destruction_date": "2023-09-20T22:10:02.859Z",
+        "hive_status": "In use",
+        "created_at": "2023-09-20T22:05:03.761Z",
+        "updated_at": "2023-09-21T06:26:58.751Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e1156fb1-60d7-46fb-af93-57d00cf9c929",
+        "location": "Phoenix",
+        "creation_date": "2023-09-20T18:32:16.461Z",
+        "destruction_date": "2023-09-21T01:23:21.521Z",
+        "hive_status": "Empty",
+        "created_at": "2023-09-21T09:23:15.803Z",
+        "updated_at": "2023-09-20T22:44:01.400Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "health_check": [
+      {
+        "id": "c3366ad0-7437-4a43-ac31-ef41f2b8dc65",
+        "check_date": "2023-09-20T16:44:25.105Z",
+        "check_result": "Normal",
+        "notes": "No issues found",
+        "created_at": "2023-09-20T19:30:10.825Z",
+        "updated_at": "2023-09-21T04:07:09.895Z",
+        "hive_id": "0a2813b6-4bc3-4b14-bd10-fb2a31a0072b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e41b8fb5-53b0-41ca-9a20-521ea01e1c9a",
+        "check_date": "2023-09-21T03:37:28.778Z",
+        "check_result": "Abnormal",
+        "notes": "Requires further investigation",
+        "created_at": "2023-09-21T00:45:42.066Z",
+        "updated_at": "2023-09-21T03:55:18.550Z",
+        "hive_id": "e1156fb1-60d7-46fb-af93-57d00cf9c929",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8631a2ac-7ae5-4b0a-a500-e8c80c6a817e",
+        "check_date": "2023-09-21T04:05:59.126Z",
+        "check_result": "Healthy",
+        "notes": "Recommend additional tests",
+        "created_at": "2023-09-21T12:18:06.621Z",
+        "updated_at": "2023-09-20T21:09:03.949Z",
+        "hive_id": "43bd640c-b73e-470a-9edc-be54a4df28bf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56fcc5f9-13ba-4c81-91d8-fdbbbbd53b62",
+        "check_date": "2023-09-21T05:39:47.240Z",
+        "check_result": "Unhealthy",
+        "notes": "Possible infection detected",
+        "created_at": "2023-09-20T15:23:06.155Z",
+        "updated_at": "2023-09-21T09:37:51.329Z",
+        "hive_id": "ed40fd9f-f01b-440f-b765-4fc8f54ca4a3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79ea9fd6-3a8b-432b-9dd0-4c0d29b44fb4",
+        "check_date": "2023-09-20T19:00:02.779Z",
+        "check_result": "Stable",
+        "notes": "Improvement needed",
+        "created_at": "2023-09-21T11:18:46.898Z",
+        "updated_at": "2023-09-20T23:20:28.979Z",
+        "hive_id": "a9cd0fcb-2ccd-4b46-982c-588ab478a35c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "harvest": [
+      {
+        "id": "ebe6eeb1-feb4-457a-8b47-de884a8a36e2",
+        "harvest_date": "2023-09-21T11:15:24.935Z",
+        "quantity": 84990,
+        "harvest_type": "Honey",
+        "created_at": "2023-09-21T04:05:53.441Z",
+        "updated_at": "2023-09-21T01:12:46.569Z",
+        "hive_id": "a9cd0fcb-2ccd-4b46-982c-588ab478a35c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c931628b-7d20-40c3-b9d6-6f500619bbd5",
+        "harvest_date": "2023-09-21T07:10:34.498Z",
+        "quantity": 85998,
+        "harvest_type": "Pollen",
+        "created_at": "2023-09-21T09:28:08.008Z",
+        "updated_at": "2023-09-20T18:29:50.359Z",
+        "hive_id": "e1156fb1-60d7-46fb-af93-57d00cf9c929",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c88ffcde-760e-493b-8b30-39fddbea7782",
+        "harvest_date": "2023-09-20T21:24:53.135Z",
+        "quantity": 4517,
+        "harvest_type": "Beeswax",
+        "created_at": "2023-09-21T00:29:13.444Z",
+        "updated_at": "2023-09-21T09:47:01.668Z",
+        "hive_id": "ed40fd9f-f01b-440f-b765-4fc8f54ca4a3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26ba9852-8a3e-4345-8fc4-4b0995c4887c",
+        "harvest_date": "2023-09-21T02:13:38.519Z",
+        "quantity": 80934,
+        "harvest_type": "Propolis",
+        "created_at": "2023-09-20T16:08:31.369Z",
+        "updated_at": "2023-09-21T10:13:26.878Z",
+        "hive_id": "ed40fd9f-f01b-440f-b765-4fc8f54ca4a3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e456b384-33f8-4e0a-9822-44fd44a10b94",
+        "harvest_date": "2023-09-21T07:38:34.071Z",
+        "quantity": 66835,
+        "harvest_type": "Royal Jelly",
+        "created_at": "2023-09-20T16:50:15.967Z",
+        "updated_at": "2023-09-20T21:12:32.411Z",
+        "hive_id": "e1156fb1-60d7-46fb-af93-57d00cf9c929",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bee": [
+      {
+        "id": "d95114f5-dc9c-41dc-980a-86d6632f0a24",
+        "species": "Apis mellifera",
+        "birth_date": "2023-09-21T01:56:47.587Z",
+        "death_date": "2023-09-21T08:07:42.197Z",
+        "queen_bee": false,
+        "created_at": "2023-09-20T20:37:06.608Z",
+        "updated_at": "2023-09-21T02:01:28.332Z",
+        "hive_id": "0a2813b6-4bc3-4b14-bd10-fb2a31a0072b"
+      },
+      {
+        "id": "a561d1a3-de56-4b3e-997c-b6e3ab9fb215",
+        "species": "Bombus terrestris",
+        "birth_date": "2023-09-21T02:04:21.771Z",
+        "death_date": "2023-09-21T09:38:22.749Z",
+        "queen_bee": true,
+        "created_at": "2023-09-21T11:09:16.836Z",
+        "updated_at": "2023-09-20T21:09:20.330Z",
+        "hive_id": "ed40fd9f-f01b-440f-b765-4fc8f54ca4a3"
+      },
+      {
+        "id": "c54559b8-5aa6-469d-a0b7-d337f746090c",
+        "species": "Xylocopa violacea",
+        "birth_date": "2023-09-20T19:55:29.841Z",
+        "death_date": "2023-09-21T11:29:16.631Z",
+        "queen_bee": false,
+        "created_at": "2023-09-20T22:11:33.018Z",
+        "updated_at": "2023-09-21T03:23:57.920Z",
+        "hive_id": "43bd640c-b73e-470a-9edc-be54a4df28bf"
+      },
+      {
+        "id": "fcddb8ef-60c6-4fcb-a48a-376d2219f64f",
+        "species": "Megachile rotundata",
+        "birth_date": "2023-09-20T23:38:18.654Z",
+        "death_date": "2023-09-21T09:23:57.316Z",
+        "queen_bee": true,
+        "created_at": "2023-09-20T19:50:04.501Z",
+        "updated_at": "2023-09-20T23:30:59.551Z",
+        "hive_id": "a9cd0fcb-2ccd-4b46-982c-588ab478a35c"
+      },
+      {
+        "id": "28c68402-417e-41c5-be4e-7e7cefac3e9d",
+        "species": "Osmia lignaria",
+        "birth_date": "2023-09-20T19:24:43.740Z",
+        "death_date": "2023-09-21T09:42:42.981Z",
+        "queen_bee": false,
+        "created_at": "2023-09-20T23:30:31.065Z",
+        "updated_at": "2023-09-21T00:23:41.615Z",
+        "hive_id": "a9cd0fcb-2ccd-4b46-982c-588ab478a35c"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "03d9a2ae-b39d-4c4c-a4d7-33d1e6ca0c51",
+        "email": "Catherine68@roq.tech",
+        "firstName": "Ebba",
+        "lastName": "Bins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24003847",
+        "tenantId": null
+      },
+      {
+        "reference": "51d17084-01a5-4bda-ba3e-7f0dc971aea4",
+        "email": "Clovis.Lind@roq.tech",
+        "firstName": "Milford",
+        "lastName": "Gibson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1141.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "64d5c098-7275-4c85-bbdc-db41ddac8a8d",
+        "email": "Dejah61@roq.tech",
+        "firstName": "Enid",
+        "lastName": "Block",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36864728",
+        "tenantId": null
+      },
+      {
+        "reference": "4e05036e-fdcc-40d9-990b-0e10b61c18aa",
+        "email": "Domingo.Zemlak@roq.tech",
+        "firstName": "Savannah",
+        "lastName": "Crona-Jones",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/725.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "92e6a25e-e49c-4d55-898e-127628c9d785",
+        "email": "Jolie_Williamson42@roq.tech",
+        "firstName": "Mohammad",
+        "lastName": "Daugherty",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/719.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "hive": [
+      {
+        "id": "bdb576a3-d146-4bb8-b02f-6ec169abd759",
+        "location": "New York",
+        "creation_date": "2023-09-21T02:12:49.369Z",
+        "destruction_date": "2023-09-20T15:31:58.556Z",
+        "hive_status": "Active",
+        "created_at": "2023-09-20T18:38:37.250Z",
+        "updated_at": "2023-09-20T19:37:32.748Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ddfe9cf9-f70f-4a04-a705-7fb5981bdb29",
+        "location": "Los Angeles",
+        "creation_date": "2023-09-20T23:19:22.158Z",
+        "destruction_date": "2023-09-21T14:19:02.446Z",
+        "hive_status": "Inactive",
+        "created_at": "2023-09-21T10:37:34.680Z",
+        "updated_at": "2023-09-20T16:05:49.062Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6670387-4041-41c9-aa12-981d487b5990",
+        "location": "Chicago",
+        "creation_date": "2023-09-21T03:26:03.078Z",
+        "destruction_date": "2023-09-21T08:34:00.862Z",
+        "hive_status": "Under Maintenance",
+        "created_at": "2023-09-21T09:41:15.402Z",
+        "updated_at": "2023-09-21T02:14:12.361Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9d2f385-beb0-429a-894c-5e5499ad698e",
+        "location": "Houston",
+        "creation_date": "2023-09-21T02:56:09.817Z",
+        "destruction_date": "2023-09-21T12:42:13.233Z",
+        "hive_status": "In Use",
+        "created_at": "2023-09-20T23:21:25.228Z",
+        "updated_at": "2023-09-21T03:36:53.654Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88994a18-f5c2-4f8d-b121-95943fb51eda",
+        "location": "Miami",
+        "creation_date": "2023-09-21T06:17:44.375Z",
+        "destruction_date": "2023-09-21T06:12:56.799Z",
+        "hive_status": "Vacant",
+        "created_at": "2023-09-21T04:50:25.594Z",
+        "updated_at": "2023-09-21T07:40:18.238Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "health_check": [
+      {
+        "id": "8aeabf5f-5fef-4101-b431-1c947568923d",
+        "check_date": "2023-09-20T19:12:45.396Z",
+        "check_result": "Pass",
+        "notes": "No issues found during the health check.",
+        "created_at": "2023-09-20T23:19:25.286Z",
+        "updated_at": "2023-09-20T16:32:47.618Z",
+        "hive_id": "ddfe9cf9-f70f-4a04-a705-7fb5981bdb29",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ecc4bc6d-458c-49b9-8a5e-a93a786eddc4",
+        "check_date": "2023-09-20T15:33:18.375Z",
+        "check_result": "Fail",
+        "notes": "Some minor issues identified and resolved.",
+        "created_at": "2023-09-20T17:35:02.437Z",
+        "updated_at": "2023-09-21T06:38:32.292Z",
+        "hive_id": "f6670387-4041-41c9-aa12-981d487b5990",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bad91dad-2ebb-4116-b0b1-5ea4cae50c6b",
+        "check_date": "2023-09-21T02:46:52.176Z",
+        "check_result": "Pending",
+        "notes": "Further investigation required for certain areas.",
+        "created_at": "2023-09-20T19:43:15.866Z",
+        "updated_at": "2023-09-21T01:35:16.774Z",
+        "hive_id": "f6670387-4041-41c9-aa12-981d487b5990",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9c4eb09-030e-4604-89e2-18bcb212c21f",
+        "check_date": "2023-09-20T22:22:40.381Z",
+        "check_result": "Completed",
+        "notes": "Health check completed successfully.",
+        "created_at": "2023-09-21T00:10:05.354Z",
+        "updated_at": "2023-09-20T22:50:18.630Z",
+        "hive_id": "f9d2f385-beb0-429a-894c-5e5499ad698e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4bc7fc4e-2e08-4832-9ed6-b8ffacd617e2",
+        "check_date": "2023-09-21T01:36:42.269Z",
+        "check_result": "In Progress",
+        "notes": "Ongoing health check process.",
+        "created_at": "2023-09-21T04:17:16.744Z",
+        "updated_at": "2023-09-20T23:47:47.880Z",
+        "hive_id": "f9d2f385-beb0-429a-894c-5e5499ad698e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "harvest": [
+      {
+        "id": "58b2f062-6436-4b34-bdf9-9d309f3177fb",
+        "harvest_date": "2023-09-21T04:05:27.518Z",
+        "quantity": 76362,
+        "harvest_type": "Honey",
+        "created_at": "2023-09-20T20:27:30.980Z",
+        "updated_at": "2023-09-21T04:22:06.019Z",
+        "hive_id": "ddfe9cf9-f70f-4a04-a705-7fb5981bdb29",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a35f500-5d4d-4b92-bfc7-871070cd107d",
+        "harvest_date": "2023-09-21T00:33:15.029Z",
+        "quantity": 85168,
+        "harvest_type": "Pollen",
+        "created_at": "2023-09-20T16:31:48.629Z",
+        "updated_at": "2023-09-21T03:48:25.899Z",
+        "hive_id": "bdb576a3-d146-4bb8-b02f-6ec169abd759",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d576ee43-22fe-487e-86ab-bf7b2b0c31cf",
+        "harvest_date": "2023-09-21T05:52:38.702Z",
+        "quantity": 46924,
+        "harvest_type": "Beeswax",
+        "created_at": "2023-09-21T03:27:40.106Z",
+        "updated_at": "2023-09-21T10:13:16.004Z",
+        "hive_id": "88994a18-f5c2-4f8d-b121-95943fb51eda",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70b21928-d7ca-4ce0-9fd3-bfa099188454",
+        "harvest_date": "2023-09-21T08:07:30.606Z",
+        "quantity": 1239,
+        "harvest_type": "Royal Jelly",
+        "created_at": "2023-09-20T23:45:52.695Z",
+        "updated_at": "2023-09-20T16:02:54.007Z",
+        "hive_id": "bdb576a3-d146-4bb8-b02f-6ec169abd759",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "575b39e8-c812-4e4b-a964-d316b676927a",
+        "harvest_date": "2023-09-20T21:08:14.045Z",
+        "quantity": 33457,
+        "harvest_type": "Propolis",
+        "created_at": "2023-09-20T22:25:25.899Z",
+        "updated_at": "2023-09-21T03:47:42.188Z",
+        "hive_id": "88994a18-f5c2-4f8d-b121-95943fb51eda",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bee": [
+      {
+        "id": "2065815f-bae2-4ccf-a8f0-aeea30db3bd5",
+        "species": "Apis mellifera",
+        "birth_date": "2023-09-20T19:10:12.647Z",
+        "death_date": "2023-09-21T01:31:33.752Z",
+        "queen_bee": false,
+        "created_at": "2023-09-20T22:55:22.014Z",
+        "updated_at": "2023-09-20T18:49:51.011Z",
+        "hive_id": "f9d2f385-beb0-429a-894c-5e5499ad698e"
+      },
+      {
+        "id": "a8b0b030-03a7-4a29-8ba6-65a73d66fcdd",
+        "species": "Bombus terrestris",
+        "birth_date": "2023-09-21T04:14:01.221Z",
+        "death_date": "2023-09-20T15:35:38.636Z",
+        "queen_bee": true,
+        "created_at": "2023-09-21T05:41:36.672Z",
+        "updated_at": "2023-09-21T03:54:37.825Z",
+        "hive_id": "ddfe9cf9-f70f-4a04-a705-7fb5981bdb29"
+      },
+      {
+        "id": "34c042ef-f8c8-40b4-b88c-f184969eaa9b",
+        "species": "Megachile rotundata",
+        "birth_date": "2023-09-20T14:59:55.955Z",
+        "death_date": "2023-09-20T20:19:40.210Z",
+        "queen_bee": true,
+        "created_at": "2023-09-21T12:08:04.676Z",
+        "updated_at": "2023-09-21T10:27:16.408Z",
+        "hive_id": "ddfe9cf9-f70f-4a04-a705-7fb5981bdb29"
+      },
+      {
+        "id": "472d1514-f4d6-46e0-b317-d0ca2379ec1b",
+        "species": "Xylocopa virginica",
+        "birth_date": "2023-09-21T12:39:30.993Z",
+        "death_date": "2023-09-21T08:49:58.357Z",
+        "queen_bee": false,
+        "created_at": "2023-09-20T21:48:09.742Z",
+        "updated_at": "2023-09-21T06:10:29.061Z",
+        "hive_id": "f6670387-4041-41c9-aa12-981d487b5990"
+      },
+      {
+        "id": "4c38ae91-4be3-4d00-8899-c6d2f2b16ece",
+        "species": "Osmia lignaria",
+        "birth_date": "2023-09-21T03:02:37.104Z",
+        "death_date": "2023-09-20T19:01:51.219Z",
+        "queen_bee": true,
+        "created_at": "2023-09-20T23:31:47.996Z",
+        "updated_at": "2023-09-21T02:26:19.894Z",
+        "hive_id": "88994a18-f5c2-4f8d-b121-95943fb51eda"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ea5e32a3-7e47-4d01-94d7-8d4004a60c35",
+        "email": "Alexandro63@roq.tech",
+        "firstName": "Bethany",
+        "lastName": "McDermott",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14694220",
+        "tenantId": null
+      },
+      {
+        "reference": "88f2758a-d7b8-4476-8101-84891b4236ef",
+        "email": "Gerry_Sauer@roq.tech",
+        "firstName": "Sister",
+        "lastName": "Gleason",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43301515",
+        "tenantId": null
+      },
+      {
+        "reference": "dedebb62-0bcd-469e-9b8e-bf6360f37e16",
+        "email": "Giles.Klocko@roq.tech",
+        "firstName": "Letha",
+        "lastName": "Osinski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/114.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7a09e063-bb93-4d36-b95c-5389dca1adb1",
+        "email": "Agustin99@roq.tech",
+        "firstName": "Theodore",
+        "lastName": "Rempel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71442658",
+        "tenantId": null
+      },
+      {
+        "reference": "ceffa431-2fbe-499f-ab90-ba64cc0d5a11",
+        "email": "Briana.Sanford@roq.tech",
+        "firstName": "Garrett",
+        "lastName": "Fahey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40418673",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "hive": [
+      {
+        "id": "dd707c97-5a33-463e-96f3-dbda73d4868e",
+        "location": "New York",
+        "creation_date": "2023-09-21T10:35:20.639Z",
+        "destruction_date": "2023-09-21T07:15:23.784Z",
+        "hive_status": "Active",
+        "created_at": "2023-09-20T20:12:44.827Z",
+        "updated_at": "2023-09-20T22:36:52.672Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "696c7541-cd7f-4711-a286-cb9133b31816",
+        "location": "Los Angeles",
+        "creation_date": "2023-09-20T19:48:42.332Z",
+        "destruction_date": "2023-09-21T00:12:19.939Z",
+        "hive_status": "Inactive",
+        "created_at": "2023-09-21T07:52:11.611Z",
+        "updated_at": "2023-09-21T11:29:28.136Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4547439b-856b-44ce-b61f-6501828cfab2",
+        "location": "Chicago",
+        "creation_date": "2023-09-21T02:22:28.889Z",
+        "destruction_date": "2023-09-20T16:50:50.747Z",
+        "hive_status": "Under Maintenance",
+        "created_at": "2023-09-20T18:32:31.971Z",
+        "updated_at": "2023-09-21T10:24:47.694Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee6a4e35-8053-4afc-a21e-d12709d84636",
+        "location": "Houston",
+        "creation_date": "2023-09-20T16:03:51.041Z",
+        "destruction_date": "2023-09-21T12:47:41.575Z",
+        "hive_status": "Needs Repair",
+        "created_at": "2023-09-21T10:59:22.114Z",
+        "updated_at": "2023-09-21T08:29:42.443Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e3333b7-a1f8-4bec-b62b-e13400f17650",
+        "location": "Phoenix",
+        "creation_date": "2023-09-20T17:55:06.234Z",
+        "destruction_date": "2023-09-21T06:10:41.148Z",
+        "hive_status": "Operational",
+        "created_at": "2023-09-21T12:24:09.621Z",
+        "updated_at": "2023-09-20T17:48:50.358Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "health_check": [
+      {
+        "id": "5cc5fd1a-650a-41c4-98c1-a5f60b3b27af",
+        "check_date": "2023-09-21T03:11:49.487Z",
+        "check_result": "Passed",
+        "notes": "No issues found",
+        "created_at": "2023-09-21T14:32:00.034Z",
+        "updated_at": "2023-09-21T03:14:55.643Z",
+        "hive_id": "696c7541-cd7f-4711-a286-cb9133b31816",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1110f81b-8e28-46b5-b41e-00709d6ea155",
+        "check_date": "2023-09-21T06:43:19.998Z",
+        "check_result": "Failed",
+        "notes": "Critical issue identified",
+        "created_at": "2023-09-21T05:25:34.042Z",
+        "updated_at": "2023-09-20T23:13:01.779Z",
+        "hive_id": "dd707c97-5a33-463e-96f3-dbda73d4868e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb26f72b-7b6d-4630-9b39-93be95b612fc",
+        "check_date": "2023-09-21T05:13:48.641Z",
+        "check_result": "In Progress",
+        "notes": "Minor issues observed",
+        "created_at": "2023-09-21T07:57:43.873Z",
+        "updated_at": "2023-09-20T15:23:55.185Z",
+        "hive_id": "2e3333b7-a1f8-4bec-b62b-e13400f17650",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b182e78-600e-4432-94aa-65a8c86e6e76",
+        "check_date": "2023-09-21T01:06:35.820Z",
+        "check_result": "Completed",
+        "notes": "Awaiting further analysis",
+        "created_at": "2023-09-21T03:54:04.918Z",
+        "updated_at": "2023-09-21T07:44:48.815Z",
+        "hive_id": "696c7541-cd7f-4711-a286-cb9133b31816",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a02aa9b-f0df-4fe8-ab88-8b46bb305a6b",
+        "check_date": "2023-09-21T08:37:49.232Z",
+        "check_result": "Pending",
+        "notes": "Recommendations provided",
+        "created_at": "2023-09-21T00:13:49.948Z",
+        "updated_at": "2023-09-21T14:01:23.413Z",
+        "hive_id": "dd707c97-5a33-463e-96f3-dbda73d4868e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "harvest": [
+      {
+        "id": "b0a2b669-b86e-4c9d-af1d-da0218b2f1f0",
+        "harvest_date": "2023-09-21T06:22:28.022Z",
+        "quantity": 48341,
+        "harvest_type": "Honey",
+        "created_at": "2023-09-21T03:41:31.404Z",
+        "updated_at": "2023-09-21T05:17:17.228Z",
+        "hive_id": "2e3333b7-a1f8-4bec-b62b-e13400f17650",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0bc8e6c6-7d75-4292-ae4f-d54ba25831aa",
+        "harvest_date": "2023-09-21T06:38:13.591Z",
+        "quantity": 84413,
+        "harvest_type": "Pollen",
+        "created_at": "2023-09-20T23:52:23.435Z",
+        "updated_at": "2023-09-20T23:09:02.887Z",
+        "hive_id": "2e3333b7-a1f8-4bec-b62b-e13400f17650",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6db66e20-eac4-41ad-8efb-1ee7967ea6a3",
+        "harvest_date": "2023-09-20T15:32:17.404Z",
+        "quantity": 44895,
+        "harvest_type": "Beeswax",
+        "created_at": "2023-09-20T17:41:04.245Z",
+        "updated_at": "2023-09-21T07:15:14.371Z",
+        "hive_id": "dd707c97-5a33-463e-96f3-dbda73d4868e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af9b1fc7-799c-414c-875a-ad23bcfa5e27",
+        "harvest_date": "2023-09-20T20:24:37.758Z",
+        "quantity": 61522,
+        "harvest_type": "Propolis",
+        "created_at": "2023-09-21T08:58:52.136Z",
+        "updated_at": "2023-09-20T21:27:19.848Z",
+        "hive_id": "dd707c97-5a33-463e-96f3-dbda73d4868e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6bbb012e-8b51-4f2b-aedb-6a0f850e41d8",
+        "harvest_date": "2023-09-20T20:55:57.240Z",
+        "quantity": 96543,
+        "harvest_type": "Royal Jelly",
+        "created_at": "2023-09-21T12:05:12.066Z",
+        "updated_at": "2023-09-21T00:57:47.301Z",
+        "hive_id": "4547439b-856b-44ce-b61f-6501828cfab2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bee": [
+      {
+        "id": "ced46fe9-bf47-4427-baa4-722dc922a351",
+        "species": "Apis mellifera",
+        "birth_date": "2023-09-20T17:58:10.485Z",
+        "death_date": "2023-09-20T16:27:38.068Z",
+        "queen_bee": false,
+        "created_at": "2023-09-20T17:49:21.055Z",
+        "updated_at": "2023-09-21T02:24:15.887Z",
+        "hive_id": "4547439b-856b-44ce-b61f-6501828cfab2"
+      },
+      {
+        "id": "685674c1-d9b6-4ac1-bf3c-f853bd3a0578",
+        "species": "Bombus terrestris",
+        "birth_date": "2023-09-21T03:52:48.681Z",
+        "death_date": "2023-09-20T21:14:32.745Z",
+        "queen_bee": true,
+        "created_at": "2023-09-21T06:34:59.043Z",
+        "updated_at": "2023-09-21T11:50:48.370Z",
+        "hive_id": "2e3333b7-a1f8-4bec-b62b-e13400f17650"
+      },
+      {
+        "id": "5d6864a3-10d9-4c69-8797-d3770cf80183",
+        "species": "Megachile rotundata",
+        "birth_date": "2023-09-21T11:35:22.795Z",
+        "death_date": "2023-09-21T12:47:27.037Z",
+        "queen_bee": true,
+        "created_at": "2023-09-21T03:12:27.665Z",
+        "updated_at": "2023-09-21T14:21:57.052Z",
+        "hive_id": "ee6a4e35-8053-4afc-a21e-d12709d84636"
+      },
+      {
+        "id": "9120f038-4e3e-4422-9a6e-4fcb5ca6be4c",
+        "species": "Osmia lignaria",
+        "birth_date": "2023-09-21T07:21:47.646Z",
+        "death_date": "2023-09-20T17:02:05.808Z",
+        "queen_bee": false,
+        "created_at": "2023-09-21T07:27:16.549Z",
+        "updated_at": "2023-09-20T23:17:01.474Z",
+        "hive_id": "696c7541-cd7f-4711-a286-cb9133b31816"
+      },
+      {
+        "id": "50685107-9e42-4225-b482-ce1f185fe76d",
+        "species": "Xylocopa virginica",
+        "birth_date": "2023-09-20T21:47:19.708Z",
+        "death_date": "2023-09-21T04:54:24.661Z",
+        "queen_bee": false,
+        "created_at": "2023-09-20T18:24:51.741Z",
+        "updated_at": "2023-09-21T00:12:55.480Z",
+        "hive_id": "696c7541-cd7f-4711-a286-cb9133b31816"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b1edb838-0d4c-417f-94ff-143a87db5dd6",
+        "email": "Ryleigh81@roq.tech",
+        "firstName": "Maxwell",
+        "lastName": "Leuschke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/329.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "672a89a2-0291-401e-90a9-06ca473d538e",
+        "email": "Tyshawn_Gutkowski84@roq.tech",
+        "firstName": "Bryce",
+        "lastName": "Lowe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50546259",
+        "tenantId": null
+      },
+      {
+        "reference": "debd378d-156c-4e93-b2cc-58ec131b7deb",
+        "email": "Janae_Kirlin@roq.tech",
+        "firstName": "Pete",
+        "lastName": "Gibson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1209.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ca837631-ef54-4d92-85e2-b369bd4b7d9f",
+        "email": "Gracie58@roq.tech",
+        "firstName": "Lucienne",
+        "lastName": "Kutch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1198.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d4eab8cc-159d-4cd5-bdf1-ef4ade2c8fda",
+        "email": "Haven_Pacocha52@roq.tech",
+        "firstName": "Jedediah",
+        "lastName": "Kihn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/119.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "hive": [
+      {
+        "id": "c6ca1338-7eeb-4542-a149-757c1cce0681",
+        "location": "New York",
+        "creation_date": "2023-09-20T16:42:15.325Z",
+        "destruction_date": "2023-09-20T18:51:16.411Z",
+        "hive_status": "Active",
+        "created_at": "2023-09-21T12:48:00.746Z",
+        "updated_at": "2023-09-21T11:45:09.419Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5fd3d443-2529-4cfe-aab0-2900aca6de19",
+        "location": "Los Angeles",
+        "creation_date": "2023-09-21T12:52:46.810Z",
+        "destruction_date": "2023-09-21T06:27:10.038Z",
+        "hive_status": "Inactive",
+        "created_at": "2023-09-21T08:54:35.996Z",
+        "updated_at": "2023-09-21T13:44:23.572Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b352344e-9965-44f3-ac2c-4406232a10e0",
+        "location": "Chicago",
+        "creation_date": "2023-09-21T14:37:11.023Z",
+        "destruction_date": "2023-09-21T06:55:03.235Z",
+        "hive_status": "Under Maintenance",
+        "created_at": "2023-09-21T00:23:30.165Z",
+        "updated_at": "2023-09-20T22:23:32.330Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "636803de-4296-438b-80bb-26a648fc3243",
+        "location": "Houston",
+        "creation_date": "2023-09-21T02:56:18.162Z",
+        "destruction_date": "2023-09-20T15:58:16.143Z",
+        "hive_status": "In Use",
+        "created_at": "2023-09-21T09:16:59.296Z",
+        "updated_at": "2023-09-21T08:56:08.512Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec604e85-8518-4760-b866-9d64a921a0c9",
+        "location": "Phoenix",
+        "creation_date": "2023-09-20T22:55:47.286Z",
+        "destruction_date": "2023-09-20T22:47:07.343Z",
+        "hive_status": "Empty",
+        "created_at": "2023-09-20T22:16:19.177Z",
+        "updated_at": "2023-09-21T03:30:13.646Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "health_check": [
+      {
+        "id": "f461c7b0-ae1e-442b-b9bb-d008ac0deb45",
+        "check_date": "2023-09-20T21:27:39.191Z",
+        "check_result": "Pass",
+        "notes": "No issues found",
+        "created_at": "2023-09-20T20:08:56.851Z",
+        "updated_at": "2023-09-21T03:08:56.958Z",
+        "hive_id": "c6ca1338-7eeb-4542-a149-757c1cce0681",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf711a08-a90e-42fc-a8a2-078e9c9b11ba",
+        "check_date": "2023-09-20T19:34:30.355Z",
+        "check_result": "Fail",
+        "notes": "Needs further investigation",
+        "created_at": "2023-09-20T23:14:47.520Z",
+        "updated_at": "2023-09-21T01:36:31.578Z",
+        "hive_id": "ec604e85-8518-4760-b866-9d64a921a0c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3083bf0e-37d0-4a9c-9b3d-0b3b96e67c7c",
+        "check_date": "2023-09-21T07:55:43.355Z",
+        "check_result": "Pending",
+        "notes": "Requires immediate attention",
+        "created_at": "2023-09-21T01:11:54.406Z",
+        "updated_at": "2023-09-20T15:39:30.358Z",
+        "hive_id": "c6ca1338-7eeb-4542-a149-757c1cce0681",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d6be7f21-b594-4579-ac12-4f9c2d6f3a52",
+        "check_date": "2023-09-21T13:59:57.073Z",
+        "check_result": "In Progress",
+        "notes": "Resolved",
+        "created_at": "2023-09-21T07:45:28.816Z",
+        "updated_at": "2023-09-20T15:36:15.886Z",
+        "hive_id": "c6ca1338-7eeb-4542-a149-757c1cce0681",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7d8fd2b-e8f3-43b4-bcfb-73643b467f19",
+        "check_date": "2023-09-21T01:57:02.938Z",
+        "check_result": "Completed",
+        "notes": "Ongoing monitoring required",
+        "created_at": "2023-09-21T12:42:37.113Z",
+        "updated_at": "2023-09-21T03:04:32.740Z",
+        "hive_id": "b352344e-9965-44f3-ac2c-4406232a10e0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "harvest": [
+      {
+        "id": "6b864056-2a1a-4d0c-8935-74d8d9a22a8b",
+        "harvest_date": "2023-09-21T02:50:52.493Z",
+        "quantity": 52364,
+        "harvest_type": "Honey",
+        "created_at": "2023-09-20T18:49:49.336Z",
+        "updated_at": "2023-09-20T21:09:02.260Z",
+        "hive_id": "ec604e85-8518-4760-b866-9d64a921a0c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5035fb9-5cce-443b-bf5b-e58693884090",
+        "harvest_date": "2023-09-20T16:17:42.058Z",
+        "quantity": 96462,
+        "harvest_type": "Wax",
+        "created_at": "2023-09-21T10:09:56.206Z",
+        "updated_at": "2023-09-21T14:28:29.067Z",
+        "hive_id": "c6ca1338-7eeb-4542-a149-757c1cce0681",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2dd86957-0270-4edb-ab87-b020a9889713",
+        "harvest_date": "2023-09-21T10:40:22.620Z",
+        "quantity": 21677,
+        "harvest_type": "Pollen",
+        "created_at": "2023-09-20T23:20:11.915Z",
+        "updated_at": "2023-09-21T03:58:46.393Z",
+        "hive_id": "b352344e-9965-44f3-ac2c-4406232a10e0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d7e5b37-035c-4083-90dd-cc8aff8dfaaf",
+        "harvest_date": "2023-09-20T21:53:09.234Z",
+        "quantity": 2857,
+        "harvest_type": "Propolis",
+        "created_at": "2023-09-21T06:31:02.670Z",
+        "updated_at": "2023-09-20T21:36:16.041Z",
+        "hive_id": "b352344e-9965-44f3-ac2c-4406232a10e0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ffb36e06-3e4b-4dac-8d58-96ae709b2e20",
+        "harvest_date": "2023-09-21T06:51:53.734Z",
+        "quantity": 31788,
+        "harvest_type": "Royal Jelly",
+        "created_at": "2023-09-21T10:36:22.346Z",
+        "updated_at": "2023-09-21T13:43:43.433Z",
+        "hive_id": "ec604e85-8518-4760-b866-9d64a921a0c9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bee": [
+      {
+        "id": "cf40229a-908f-44a4-9bad-c897292b9634",
+        "species": "Apis mellifera",
+        "birth_date": "2023-09-21T03:17:03.733Z",
+        "death_date": "2023-09-20T23:30:58.203Z",
+        "queen_bee": false,
+        "created_at": "2023-09-21T09:25:17.923Z",
+        "updated_at": "2023-09-21T02:39:34.538Z",
+        "hive_id": "c6ca1338-7eeb-4542-a149-757c1cce0681"
+      },
+      {
+        "id": "0d4caf43-e8bb-4683-a598-65d6dfb1300a",
+        "species": "Bombus terrestris",
+        "birth_date": "2023-09-21T13:13:17.575Z",
+        "death_date": "2023-09-21T03:00:14.986Z",
+        "queen_bee": true,
+        "created_at": "2023-09-21T05:56:58.301Z",
+        "updated_at": "2023-09-21T03:37:20.733Z",
+        "hive_id": "636803de-4296-438b-80bb-26a648fc3243"
+      },
+      {
+        "id": "0f7488b0-75b3-44d9-a0cc-d88fd7958dab",
+        "species": "Megachile rotundata",
+        "birth_date": "2023-09-21T04:34:12.188Z",
+        "death_date": "2023-09-21T06:08:29.417Z",
+        "queen_bee": false,
+        "created_at": "2023-09-21T10:21:15.721Z",
+        "updated_at": "2023-09-20T17:37:38.356Z",
+        "hive_id": "b352344e-9965-44f3-ac2c-4406232a10e0"
+      },
+      {
+        "id": "f2df4532-551f-4767-8802-ae3163b7f3ed",
+        "species": "Xylocopa violacea",
+        "birth_date": "2023-09-21T01:05:27.202Z",
+        "death_date": "2023-09-20T22:36:42.983Z",
+        "queen_bee": false,
+        "created_at": "2023-09-21T09:02:02.490Z",
+        "updated_at": "2023-09-20T17:38:07.109Z",
+        "hive_id": "c6ca1338-7eeb-4542-a149-757c1cce0681"
+      },
+      {
+        "id": "0161ec18-b634-407c-9ed0-6c25f2aed203",
+        "species": "Melipona beecheii",
+        "birth_date": "2023-09-20T17:23:35.885Z",
+        "death_date": "2023-09-21T11:45:48.126Z",
+        "queen_bee": false,
+        "created_at": "2023-09-20T20:13:34.972Z",
+        "updated_at": "2023-09-21T10:09:03.159Z",
+        "hive_id": "b352344e-9965-44f3-ac2c-4406232a10e0"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "28925bab-aa32-47d9-98a9-16f5c164752a",
+        "email": "Erika.Glover@roq.tech",
+        "firstName": "Madie",
+        "lastName": "Kreiger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51465694",
+        "tenantId": null
+      },
+      {
+        "reference": "bd703372-8e80-4e26-99c3-1eb68a002711",
+        "email": "Maximus.Konopelski@roq.tech",
+        "firstName": "Koby",
+        "lastName": "Dibbert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36328440",
+        "tenantId": null
+      },
+      {
+        "reference": "c041190a-f29d-4d30-a90a-5a18956c81f2",
+        "email": "Emilia.Hane7@roq.tech",
+        "firstName": "Holden",
+        "lastName": "Quitzon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/440.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b3463f33-b17d-46b7-84d8-cd38380a8980",
+        "email": "Remington.Hoppe@roq.tech",
+        "firstName": "Mekhi",
+        "lastName": "Welch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/984.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d4206743-b3c5-4f94-af8b-6eca18607c12",
+        "email": "Anissa97@roq.tech",
+        "firstName": "Marianne",
+        "lastName": "Goyette",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67607186",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "hive": [
+      {
+        "id": "6a3f314d-aec8-4786-9e8f-e935d158b404",
+        "location": "New York",
+        "creation_date": "2023-09-20T18:58:36.072Z",
+        "destruction_date": "2023-09-21T02:02:16.409Z",
+        "hive_status": "Active",
+        "created_at": "2023-09-20T15:17:41.407Z",
+        "updated_at": "2023-09-20T20:13:53.535Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58b534c3-5147-4daf-a4af-59f644c91213",
+        "location": "Los Angeles",
+        "creation_date": "2023-09-20T18:39:18.085Z",
+        "destruction_date": "2023-09-21T04:12:52.551Z",
+        "hive_status": "Inactive",
+        "created_at": "2023-09-21T13:24:19.165Z",
+        "updated_at": "2023-09-20T17:06:55.493Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb7e8481-885d-4563-8962-7d0405c57961",
+        "location": "Chicago",
+        "creation_date": "2023-09-21T01:31:30.441Z",
+        "destruction_date": "2023-09-21T05:45:56.996Z",
+        "hive_status": "Under maintenance",
+        "created_at": "2023-09-21T01:27:21.901Z",
+        "updated_at": "2023-09-20T22:42:28.833Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fcaa99e9-b29c-49cf-9d3e-9e7e0a3bd78f",
+        "location": "Houston",
+        "creation_date": "2023-09-21T03:27:42.287Z",
+        "destruction_date": "2023-09-20T17:02:13.192Z",
+        "hive_status": "In use",
+        "created_at": "2023-09-20T19:38:43.295Z",
+        "updated_at": "2023-09-21T01:32:33.026Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "306f6937-4827-4562-9279-dcd305a32fbd",
+        "location": "Phoenix",
+        "creation_date": "2023-09-20T19:19:33.723Z",
+        "destruction_date": "2023-09-21T10:51:55.953Z",
+        "hive_status": "Available",
+        "created_at": "2023-09-21T09:25:34.687Z",
+        "updated_at": "2023-09-21T09:51:14.696Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "health_check": [
+      {
+        "id": "62333917-7d43-4bce-851e-a22c70bced90",
+        "check_date": "2023-09-21T05:28:13.248Z",
+        "check_result": "Pass",
+        "notes": "No issues found",
+        "created_at": "2023-09-21T10:53:51.563Z",
+        "updated_at": "2023-09-21T07:45:32.249Z",
+        "hive_id": "58b534c3-5147-4daf-a4af-59f644c91213",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b619f2b8-438d-4f41-8970-ea760b1a890d",
+        "check_date": "2023-09-21T13:55:00.505Z",
+        "check_result": "Fail",
+        "notes": "Needs further investigation",
+        "created_at": "2023-09-21T04:03:35.305Z",
+        "updated_at": "2023-09-21T06:57:13.552Z",
+        "hive_id": "306f6937-4827-4562-9279-dcd305a32fbd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "770c42dc-0c02-4481-b6ab-87188c284903",
+        "check_date": "2023-09-20T18:21:14.881Z",
+        "check_result": "Pending",
+        "notes": "Requires immediate attention",
+        "created_at": "2023-09-20T18:42:30.051Z",
+        "updated_at": "2023-09-21T08:48:22.061Z",
+        "hive_id": "58b534c3-5147-4daf-a4af-59f644c91213",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ecd2276-6cb6-40bf-9330-537be0c27a34",
+        "check_date": "2023-09-21T13:10:28.379Z",
+        "check_result": "Completed",
+        "notes": "Resolved",
+        "created_at": "2023-09-20T15:56:26.660Z",
+        "updated_at": "2023-09-21T01:45:02.196Z",
+        "hive_id": "58b534c3-5147-4daf-a4af-59f644c91213",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d533928a-8925-4bf4-80a1-c06d51d7ce4c",
+        "check_date": "2023-09-21T07:26:42.326Z",
+        "check_result": "In progress",
+        "notes": "Ongoing monitoring required",
+        "created_at": "2023-09-21T14:38:02.723Z",
+        "updated_at": "2023-09-21T09:48:35.584Z",
+        "hive_id": "6a3f314d-aec8-4786-9e8f-e935d158b404",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "harvest": [
+      {
+        "id": "075c5062-558b-4434-822b-01e06f002d1f",
+        "harvest_date": "2023-09-21T03:51:55.754Z",
+        "quantity": 81473,
+        "harvest_type": "Honey",
+        "created_at": "2023-09-21T13:53:07.701Z",
+        "updated_at": "2023-09-21T05:45:26.969Z",
+        "hive_id": "fb7e8481-885d-4563-8962-7d0405c57961",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e015cb1-9612-42db-8a61-51bc8e15727e",
+        "harvest_date": "2023-09-20T17:26:03.894Z",
+        "quantity": 13231,
+        "harvest_type": "Pollen",
+        "created_at": "2023-09-21T08:44:34.573Z",
+        "updated_at": "2023-09-20T21:59:20.936Z",
+        "hive_id": "306f6937-4827-4562-9279-dcd305a32fbd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "670f277c-73e7-4787-b4bf-b03548f2ab74",
+        "harvest_date": "2023-09-20T16:28:28.683Z",
+        "quantity": 3694,
+        "harvest_type": "Beeswax",
+        "created_at": "2023-09-21T05:56:13.432Z",
+        "updated_at": "2023-09-20T18:31:28.332Z",
+        "hive_id": "fcaa99e9-b29c-49cf-9d3e-9e7e0a3bd78f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a66338fe-e87f-4fe0-9b32-0a8bc87367dc",
+        "harvest_date": "2023-09-20T22:26:57.048Z",
+        "quantity": 91730,
+        "harvest_type": "Royal jelly",
+        "created_at": "2023-09-21T04:30:40.730Z",
+        "updated_at": "2023-09-21T07:11:53.344Z",
+        "hive_id": "58b534c3-5147-4daf-a4af-59f644c91213",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "599e262b-fe21-497a-9bd1-cfb1e8dd46fb",
+        "harvest_date": "2023-09-21T11:13:32.634Z",
+        "quantity": 30825,
+        "harvest_type": "Propolis",
+        "created_at": "2023-09-20T16:01:30.358Z",
+        "updated_at": "2023-09-20T17:38:03.188Z",
+        "hive_id": "306f6937-4827-4562-9279-dcd305a32fbd",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bee": [
+      {
+        "id": "0f15fa4c-596a-43ea-afe2-fe3df287d372",
+        "species": "Apis mellifera",
+        "birth_date": "2023-09-20T16:52:38.689Z",
+        "death_date": "2023-09-21T04:33:50.384Z",
+        "queen_bee": false,
+        "created_at": "2023-09-21T01:02:13.706Z",
+        "updated_at": "2023-09-21T02:12:40.107Z",
+        "hive_id": "fcaa99e9-b29c-49cf-9d3e-9e7e0a3bd78f"
+      },
+      {
+        "id": "20a59bf0-eed1-4346-abfd-78aef7915859",
+        "species": "Bombus terrestris",
+        "birth_date": "2023-09-21T07:28:54.950Z",
+        "death_date": "2023-09-20T23:41:28.958Z",
+        "queen_bee": true,
+        "created_at": "2023-09-21T09:42:03.880Z",
+        "updated_at": "2023-09-20T16:05:58.141Z",
+        "hive_id": "fcaa99e9-b29c-49cf-9d3e-9e7e0a3bd78f"
+      },
+      {
+        "id": "b0fac5bc-16cd-4932-8221-62ae5228d53c",
+        "species": "Megachile rotundata",
+        "birth_date": "2023-09-20T20:50:27.911Z",
+        "death_date": "2023-09-20T16:16:22.016Z",
+        "queen_bee": true,
+        "created_at": "2023-09-20T23:32:30.655Z",
+        "updated_at": "2023-09-21T12:19:52.353Z",
+        "hive_id": "fb7e8481-885d-4563-8962-7d0405c57961"
+      },
+      {
+        "id": "c35804db-f7fd-4150-ac75-79b408331409",
+        "species": "Osmia lignaria",
+        "birth_date": "2023-09-20T16:31:53.693Z",
+        "death_date": "2023-09-21T06:01:09.486Z",
+        "queen_bee": false,
+        "created_at": "2023-09-21T00:26:51.554Z",
+        "updated_at": "2023-09-21T05:13:53.723Z",
+        "hive_id": "fb7e8481-885d-4563-8962-7d0405c57961"
+      },
+      {
+        "id": "338c0565-4101-4807-989e-e6538cc1ec13",
+        "species": "Xylocopa virginica",
+        "birth_date": "2023-09-21T05:55:16.652Z",
+        "death_date": "2023-09-21T05:10:50.725Z",
+        "queen_bee": true,
+        "created_at": "2023-09-20T15:38:54.108Z",
+        "updated_at": "2023-09-20T18:35:35.169Z",
+        "hive_id": "fb7e8481-885d-4563-8962-7d0405c57961"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e76702be-98d1-420b-ac0b-e3db985e39b4",
+        "email": "Miguel22@roq.tech",
+        "firstName": "Esperanza",
+        "lastName": "Davis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1079.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f737a9ad-345d-486f-b925-e4daf0cdad01",
+        "email": "Jean.Wolf89@roq.tech",
+        "firstName": "Braxton",
+        "lastName": "Ullrich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17699303",
+        "tenantId": null
+      },
+      {
+        "reference": "e7223569-3c10-4157-86bf-ab1b9b4ca93c",
+        "email": "Robert_Johnson56@roq.tech",
+        "firstName": "Fannie",
+        "lastName": "Price",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/469.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "aa3a484e-c954-4f44-8db0-add82245cacd",
+        "email": "Flo_Waters4@roq.tech",
+        "firstName": "Lauretta",
+        "lastName": "McKenzie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/195.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "26d74782-55be-434d-8d78-8dd62ab021e8",
+        "email": "Rhoda8@roq.tech",
+        "firstName": "Orin",
+        "lastName": "Harvey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8461277",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "hive": [
+      {
+        "id": "a2c74693-eb7d-4ddf-a62f-07e626824df4",
+        "location": "New York",
+        "creation_date": "2023-09-20T19:22:59.175Z",
+        "destruction_date": "2023-09-21T11:57:28.641Z",
+        "hive_status": "Active",
+        "created_at": "2023-09-21T02:54:11.233Z",
+        "updated_at": "2023-09-21T08:22:48.947Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "385a88c1-9023-4060-b7f8-fdd1dc84976e",
+        "location": "Los Angeles",
+        "creation_date": "2023-09-21T11:59:16.080Z",
+        "destruction_date": "2023-09-20T22:10:03.973Z",
+        "hive_status": "Inactive",
+        "created_at": "2023-09-21T01:58:51.795Z",
+        "updated_at": "2023-09-21T10:19:27.339Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b74f6b2-a4b3-4b9d-b213-122dcdf62b07",
+        "location": "Chicago",
+        "creation_date": "2023-09-21T12:11:03.881Z",
+        "destruction_date": "2023-09-21T11:33:51.766Z",
+        "hive_status": "Under maintenance",
+        "created_at": "2023-09-20T19:53:06.951Z",
+        "updated_at": "2023-09-20T20:17:49.216Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59abef9d-c6bd-4503-ac9e-c5cd592c377a",
+        "location": "Houston",
+        "creation_date": "2023-09-20T16:15:13.989Z",
+        "destruction_date": "2023-09-21T01:34:36.049Z",
+        "hive_status": "Damaged",
+        "created_at": "2023-09-21T09:43:27.108Z",
+        "updated_at": "2023-09-20T15:38:29.096Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1bb53072-fb68-44ef-b943-b5670768d234",
+        "location": "Philadelphia",
+        "creation_date": "2023-09-20T18:42:07.112Z",
+        "destruction_date": "2023-09-21T11:55:29.716Z",
+        "hive_status": "Operational",
+        "created_at": "2023-09-21T00:29:52.855Z",
+        "updated_at": "2023-09-20T16:32:21.461Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "health_check": [
+      {
+        "id": "90f65a6b-52c9-4417-83e7-1f7130d2adf5",
+        "check_date": "2023-09-21T00:35:12.650Z",
+        "check_result": "Normal",
+        "notes": "No issues found",
+        "created_at": "2023-09-21T13:03:34.558Z",
+        "updated_at": "2023-09-20T18:47:39.720Z",
+        "hive_id": "a2c74693-eb7d-4ddf-a62f-07e626824df4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11c15cc8-d284-455a-86f2-3e40b0b192cb",
+        "check_date": "2023-09-21T10:13:46.614Z",
+        "check_result": "Abnormal",
+        "notes": "Requires further examination",
+        "created_at": "2023-09-20T22:28:50.879Z",
+        "updated_at": "2023-09-21T07:14:45.334Z",
+        "hive_id": "385a88c1-9023-4060-b7f8-fdd1dc84976e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "baa7deb9-573f-4306-b368-851c313e8933",
+        "check_date": "2023-09-20T16:49:12.028Z",
+        "check_result": "Healthy",
+        "notes": "Recommend maintenance",
+        "created_at": "2023-09-20T18:17:09.034Z",
+        "updated_at": "2023-09-21T13:36:30.288Z",
+        "hive_id": "a2c74693-eb7d-4ddf-a62f-07e626824df4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00b784ec-a7e4-43e7-8c50-de1782d29a15",
+        "check_date": "2023-09-21T02:27:37.791Z",
+        "check_result": "Unhealthy",
+        "notes": "High risk",
+        "created_at": "2023-09-20T16:56:03.066Z",
+        "updated_at": "2023-09-21T08:30:10.688Z",
+        "hive_id": "0b74f6b2-a4b3-4b9d-b213-122dcdf62b07",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e237fe5-f479-4c23-bebe-f632bbae2b2f",
+        "check_date": "2023-09-20T19:05:55.429Z",
+        "check_result": "Good",
+        "notes": "Improvement needed",
+        "created_at": "2023-09-20T23:55:25.868Z",
+        "updated_at": "2023-09-21T05:41:02.637Z",
+        "hive_id": "0b74f6b2-a4b3-4b9d-b213-122dcdf62b07",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "harvest": [
+      {
+        "id": "886610e4-3ed2-47ca-b038-919903ba068d",
+        "harvest_date": "2023-09-21T11:14:01.066Z",
+        "quantity": 46443,
+        "harvest_type": "Honey",
+        "created_at": "2023-09-21T11:44:54.085Z",
+        "updated_at": "2023-09-21T03:44:20.371Z",
+        "hive_id": "385a88c1-9023-4060-b7f8-fdd1dc84976e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "071f2bb7-42b3-4d94-aefe-35653c88d918",
+        "harvest_date": "2023-09-21T11:53:36.800Z",
+        "quantity": 9248,
+        "harvest_type": "Beeswax",
+        "created_at": "2023-09-20T16:09:20.172Z",
+        "updated_at": "2023-09-21T04:55:54.199Z",
+        "hive_id": "a2c74693-eb7d-4ddf-a62f-07e626824df4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2082c6b9-457b-4d7c-a0b6-e4b31bc99aff",
+        "harvest_date": "2023-09-21T11:28:24.858Z",
+        "quantity": 99134,
+        "harvest_type": "Pollen",
+        "created_at": "2023-09-21T12:42:46.616Z",
+        "updated_at": "2023-09-21T02:39:57.229Z",
+        "hive_id": "0b74f6b2-a4b3-4b9d-b213-122dcdf62b07",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1407ca97-5458-403c-8866-bb819e5ad455",
+        "harvest_date": "2023-09-20T19:00:20.590Z",
+        "quantity": 97623,
+        "harvest_type": "Royal Jelly",
+        "created_at": "2023-09-21T02:12:17.297Z",
+        "updated_at": "2023-09-21T09:49:14.856Z",
+        "hive_id": "0b74f6b2-a4b3-4b9d-b213-122dcdf62b07",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b57b8a7-3c11-498b-a482-196c0f0b017b",
+        "harvest_date": "2023-09-21T07:59:06.045Z",
+        "quantity": 68935,
+        "harvest_type": "Propolis",
+        "created_at": "2023-09-20T19:38:12.493Z",
+        "updated_at": "2023-09-20T17:57:23.506Z",
+        "hive_id": "0b74f6b2-a4b3-4b9d-b213-122dcdf62b07",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bee": [
+      {
+        "id": "1b50d758-1123-4c7b-9b48-f2bb8ed17d5f",
+        "species": "Apis mellifera",
+        "birth_date": "2023-09-21T12:23:56.407Z",
+        "death_date": "2023-09-21T07:45:52.606Z",
+        "queen_bee": false,
+        "created_at": "2023-09-20T16:19:52.661Z",
+        "updated_at": "2023-09-20T19:04:02.955Z",
+        "hive_id": "1bb53072-fb68-44ef-b943-b5670768d234"
+      },
+      {
+        "id": "c5d2e099-6496-4e03-8f1c-931be12ad52d",
+        "species": "Bombus terrestris",
+        "birth_date": "2023-09-21T05:40:40.834Z",
+        "death_date": "2023-09-21T04:19:39.548Z",
+        "queen_bee": true,
+        "created_at": "2023-09-20T15:59:03.868Z",
+        "updated_at": "2023-09-20T18:20:37.220Z",
+        "hive_id": "59abef9d-c6bd-4503-ac9e-c5cd592c377a"
+      },
+      {
+        "id": "1fe51dba-c4c8-4e55-ab46-6b3c45de0a82",
+        "species": "Xylocopa virginica",
+        "birth_date": "2023-09-21T05:55:12.692Z",
+        "death_date": "2023-09-21T08:20:53.420Z",
+        "queen_bee": true,
+        "created_at": "2023-09-21T04:23:57.388Z",
+        "updated_at": "2023-09-21T10:03:20.335Z",
+        "hive_id": "1bb53072-fb68-44ef-b943-b5670768d234"
+      },
+      {
+        "id": "2ba48da9-50f0-44f9-9771-e70129707b2c",
+        "species": "Megachile rotundata",
+        "birth_date": "2023-09-21T03:44:35.158Z",
+        "death_date": "2023-09-21T14:35:46.832Z",
+        "queen_bee": false,
+        "created_at": "2023-09-21T10:05:38.835Z",
+        "updated_at": "2023-09-20T15:41:36.059Z",
+        "hive_id": "385a88c1-9023-4060-b7f8-fdd1dc84976e"
+      },
+      {
+        "id": "05d1aa76-4764-4a7c-a675-b8903689cf0f",
+        "species": "Osmia lignaria",
+        "birth_date": "2023-09-21T00:04:42.996Z",
+        "death_date": "2023-09-21T06:37:39.462Z",
+        "queen_bee": false,
+        "created_at": "2023-09-21T14:31:50.724Z",
+        "updated_at": "2023-09-21T13:29:46.464Z",
+        "hive_id": "0b74f6b2-a4b3-4b9d-b213-122dcdf62b07"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c364d5c5-2320-415c-b3f7-6424432423ec",
+        "email": "Maribel31@roq.tech",
+        "firstName": "Bria",
+        "lastName": "Weissnat",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1015.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "37697d22-3180-4b59-9f8e-f7b70be1d25d",
+        "email": "Jordy.Bergstrom87@roq.tech",
+        "firstName": "Omari",
+        "lastName": "Brakus",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25222374",
+        "tenantId": null
+      },
+      {
+        "reference": "c80ae98d-4a64-4a47-8b53-8c9086b84c3e",
+        "email": "Alysson16@roq.tech",
+        "firstName": "Norwood",
+        "lastName": "Reichert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67426037",
+        "tenantId": null
+      },
+      {
+        "reference": "be9cf514-e2fb-4661-8aa8-7c1010e5cf84",
+        "email": "Mitchel_Herzog@roq.tech",
+        "firstName": "Vivienne",
+        "lastName": "Lind",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1209.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "366cab56-4683-464a-bff1-58795c37e34d",
+        "email": "Margret.Maggio10@roq.tech",
+        "firstName": "Luz",
+        "lastName": "Waelchi",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1020.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "hive": [
+      {
+        "id": "636c08c0-4882-402b-8067-5d45d84208fa",
+        "location": "New York",
+        "creation_date": "2023-09-21T07:56:08.523Z",
+        "destruction_date": "2023-09-20T16:20:27.060Z",
+        "hive_status": "Active",
+        "created_at": "2023-09-20T21:39:03.694Z",
+        "updated_at": "2023-09-20T20:26:46.709Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1dd48059-72a3-43e9-9a22-d91c565c896a",
+        "location": "Los Angeles",
+        "creation_date": "2023-09-20T16:41:39.663Z",
+        "destruction_date": "2023-09-21T10:31:51.119Z",
+        "hive_status": "Inactive",
+        "created_at": "2023-09-21T00:19:40.473Z",
+        "updated_at": "2023-09-21T02:19:34.150Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "808a7554-9b78-417d-a565-6e76d7deab78",
+        "location": "Chicago",
+        "creation_date": "2023-09-20T17:55:25.974Z",
+        "destruction_date": "2023-09-21T00:31:35.533Z",
+        "hive_status": "Under Maintenance",
+        "created_at": "2023-09-21T14:16:36.323Z",
+        "updated_at": "2023-09-21T04:32:27.196Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca24d89d-a823-48d9-9345-455319645627",
+        "location": "Houston",
+        "creation_date": "2023-09-21T02:53:07.536Z",
+        "destruction_date": "2023-09-21T13:11:13.158Z",
+        "hive_status": "In Use",
+        "created_at": "2023-09-21T03:49:49.491Z",
+        "updated_at": "2023-09-21T10:41:03.931Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a6f3f52-aa2c-4b44-959c-4663b117e7bb",
+        "location": "Phoenix",
+        "creation_date": "2023-09-20T18:26:03.694Z",
+        "destruction_date": "2023-09-21T02:05:30.182Z",
+        "hive_status": "Empty",
+        "created_at": "2023-09-20T22:59:34.083Z",
+        "updated_at": "2023-09-20T19:21:53.280Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "health_check": [
+      {
+        "id": "059b7190-2afb-4a9e-9300-08b4571ed359",
+        "check_date": "2023-09-21T00:11:56.244Z",
+        "check_result": "Passed",
+        "notes": "No issues found",
+        "created_at": "2023-09-21T06:36:11.330Z",
+        "updated_at": "2023-09-21T14:41:01.654Z",
+        "hive_id": "ca24d89d-a823-48d9-9345-455319645627",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed638b45-d15a-4148-be65-b05b6f2df6e8",
+        "check_date": "2023-09-21T06:15:38.727Z",
+        "check_result": "Failed",
+        "notes": "Needs further investigation",
+        "created_at": "2023-09-20T16:24:02.535Z",
+        "updated_at": "2023-09-21T00:25:29.796Z",
+        "hive_id": "1dd48059-72a3-43e9-9a22-d91c565c896a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38290502-8c19-4d59-898a-347f9498008b",
+        "check_date": "2023-09-20T20:25:22.407Z",
+        "check_result": "Pending",
+        "notes": "Requires immediate attention",
+        "created_at": "2023-09-21T01:04:33.770Z",
+        "updated_at": "2023-09-21T09:37:10.047Z",
+        "hive_id": "ca24d89d-a823-48d9-9345-455319645627",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9da3dcc1-4c61-4888-b862-fe745f10c243",
+        "check_date": "2023-09-21T09:59:25.175Z",
+        "check_result": "Completed",
+        "notes": "Resolved",
+        "created_at": "2023-09-21T06:50:28.192Z",
+        "updated_at": "2023-09-21T03:14:47.834Z",
+        "hive_id": "636c08c0-4882-402b-8067-5d45d84208fa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a4624d0-8cd6-473c-a58e-f98a4d555c35",
+        "check_date": "2023-09-21T14:37:27.175Z",
+        "check_result": "In Progress",
+        "notes": "Ongoing monitoring required",
+        "created_at": "2023-09-21T06:49:01.484Z",
+        "updated_at": "2023-09-21T00:56:26.268Z",
+        "hive_id": "1dd48059-72a3-43e9-9a22-d91c565c896a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "harvest": [
+      {
+        "id": "66a99424-6b04-4a2d-bf60-c8eb25642bf6",
+        "harvest_date": "2023-09-21T03:37:34.749Z",
+        "quantity": 47733,
+        "harvest_type": "Honey",
+        "created_at": "2023-09-21T13:10:12.449Z",
+        "updated_at": "2023-09-21T13:42:55.011Z",
+        "hive_id": "ca24d89d-a823-48d9-9345-455319645627",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52952180-5f46-4335-bcc1-b594c6b274c9",
+        "harvest_date": "2023-09-21T14:47:10.270Z",
+        "quantity": 41827,
+        "harvest_type": "Wax",
+        "created_at": "2023-09-20T16:18:56.489Z",
+        "updated_at": "2023-09-20T18:40:14.849Z",
+        "hive_id": "808a7554-9b78-417d-a565-6e76d7deab78",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41508c90-ab09-4ff7-9a39-1e38d3253185",
+        "harvest_date": "2023-09-21T02:51:33.267Z",
+        "quantity": 33747,
+        "harvest_type": "Pollen",
+        "created_at": "2023-09-20T15:26:51.216Z",
+        "updated_at": "2023-09-21T04:20:45.411Z",
+        "hive_id": "ca24d89d-a823-48d9-9345-455319645627",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "330933ec-5b92-4d87-87d6-3e6dbc7ca1da",
+        "harvest_date": "2023-09-21T10:14:31.157Z",
+        "quantity": 64785,
+        "harvest_type": "Propolis",
+        "created_at": "2023-09-20T23:13:03.729Z",
+        "updated_at": "2023-09-21T05:47:35.375Z",
+        "hive_id": "808a7554-9b78-417d-a565-6e76d7deab78",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c93ed864-78dc-42bc-9472-e521f28bba7d",
+        "harvest_date": "2023-09-21T01:50:46.748Z",
+        "quantity": 28804,
+        "harvest_type": "Royal Jelly",
+        "created_at": "2023-09-21T14:03:56.615Z",
+        "updated_at": "2023-09-21T06:48:16.778Z",
+        "hive_id": "636c08c0-4882-402b-8067-5d45d84208fa",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bee": [
+      {
+        "id": "37223408-e8e3-4eeb-85cb-d11e4a164268",
+        "species": "Apis mellifera",
+        "birth_date": "2023-09-21T04:37:56.721Z",
+        "death_date": "2023-09-20T23:35:53.415Z",
+        "queen_bee": true,
+        "created_at": "2023-09-20T20:41:57.534Z",
+        "updated_at": "2023-09-20T18:09:39.287Z",
+        "hive_id": "808a7554-9b78-417d-a565-6e76d7deab78"
+      },
+      {
+        "id": "d57cb972-05cb-4646-b032-040f7b5412c8",
+        "species": "Bombus terrestris",
+        "birth_date": "2023-09-20T16:04:35.134Z",
+        "death_date": "2023-09-21T01:39:22.158Z",
+        "queen_bee": true,
+        "created_at": "2023-09-20T22:42:43.699Z",
+        "updated_at": "2023-09-21T02:05:23.065Z",
+        "hive_id": "1dd48059-72a3-43e9-9a22-d91c565c896a"
+      },
+      {
+        "id": "42b9651e-9909-43b4-b168-1f4bb59c316a",
+        "species": "Megachile rotundata",
+        "birth_date": "2023-09-21T13:53:59.054Z",
+        "death_date": "2023-09-20T22:53:55.902Z",
+        "queen_bee": false,
+        "created_at": "2023-09-21T01:31:22.871Z",
+        "updated_at": "2023-09-21T03:54:45.189Z",
+        "hive_id": "1dd48059-72a3-43e9-9a22-d91c565c896a"
+      },
+      {
+        "id": "ad886ddd-744f-430f-bd0a-89eb81390dbd",
+        "species": "Osmia lignaria",
+        "birth_date": "2023-09-20T19:19:18.989Z",
+        "death_date": "2023-09-20T15:46:07.066Z",
+        "queen_bee": true,
+        "created_at": "2023-09-20T21:40:52.716Z",
+        "updated_at": "2023-09-20T16:49:22.005Z",
+        "hive_id": "1dd48059-72a3-43e9-9a22-d91c565c896a"
+      },
+      {
+        "id": "0d40b2b7-ef0f-4e6a-8815-361fe868c530",
+        "species": "Xylocopa virginica",
+        "birth_date": "2023-09-21T12:32:43.504Z",
+        "death_date": "2023-09-20T18:25:00.386Z",
+        "queen_bee": false,
+        "created_at": "2023-09-20T19:54:31.794Z",
+        "updated_at": "2023-09-21T04:26:23.594Z",
+        "hive_id": "808a7554-9b78-417d-a565-6e76d7deab78"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "251e203a-8b7b-463a-a614-c814083fd02d",
+        "email": "Sanford.Stanton@roq.tech",
+        "firstName": "Fae",
+        "lastName": "Mann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45214796",
+        "tenantId": null
+      },
+      {
+        "reference": "7aa11ee9-f9df-4905-bb36-d97350371c41",
+        "email": "Green.Lindgren@roq.tech",
+        "firstName": "Jakob",
+        "lastName": "Spencer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/540.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4c955424-ef9a-436b-89ef-895005c0141b",
+        "email": "Myrna.Dietrich90@roq.tech",
+        "firstName": "Louie",
+        "lastName": "Botsford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49309599",
+        "tenantId": null
+      },
+      {
+        "reference": "ebf3e196-8363-48f4-a438-16b9e2b2555e",
+        "email": "Lula63@roq.tech",
+        "firstName": "Lewis",
+        "lastName": "Kemmer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64945309",
+        "tenantId": null
+      },
+      {
+        "reference": "e53a7278-f586-4bf6-a184-42d0dca45353",
+        "email": "Johann_Rodriguez15@roq.tech",
+        "firstName": "Alexandro",
+        "lastName": "Kihn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/425.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
